@@ -66,3 +66,15 @@
     display: grid;
     grid-template-rows: repeat(3, 50px);
 }
+.options-bottom .item{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 12px;
+    font-size: 26px;
+}
+.options-bottom img {
+    border: 1px solid pink;
+    height: 32px;
+    width: 32px;
+}
