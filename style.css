@@ -16,6 +16,8 @@
     border: 1px solid orange;
 }
 
+/* SIDEBAR */
+
 .sidebar {
     grid-row-start: 1;
     grid-row-end: 3;
