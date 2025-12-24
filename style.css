@@ -14,12 +14,13 @@
     width: 100vw;
 }
 
-.container div {
-    border: 1px solid orange;
-}
+
 
 /* SIDEBAR */
-
+.header {
+    grid-column: 2 / 4 ;
+    grid-row: 1 / 2;
+}
 .sidebar {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -119,7 +120,7 @@
     border: 2px solid black;
     border-radius: 10px;
     height: 25px;
-    width: 40em;
+    width: 70%;
 }
 
 /* header bottom row */
