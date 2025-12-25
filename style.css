@@ -115,6 +115,9 @@
     width: 32px;
 }
 
+.header .top-row .right img[alt="top-logo"] {
+    border-radius: 15px;
+}
 .header .search-bar {
     border: 0px solid black;
     background-color: rgb(219, 227, 231);
@@ -140,8 +143,9 @@
 }
 .header .bottom-row .left img{
     border: 1px solid green;
-    height: 32px;
-    width: 32px;
+    height: 46px;
+    width: 46px;
+    border-radius: 25px;
 }
 
 .header .bottom-row .right {
