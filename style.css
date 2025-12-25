@@ -169,6 +169,8 @@
 
 /* MAIN CONTENT */
 .main-content {
+    background-color: rgb(219, 227, 231);
+    padding: 15px;
     border: 1px solid firebrick;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -182,6 +184,12 @@
     grid-template-rows: 1fr 1fr 1fr;
     height: 100%;
     gap: 20px;
+}
+
+.main-content-left .projects div {
+    border-radius: 10px;
+    border-left-color: gold;
+    border-left-width: 10px;
 }
 
 .main-content div {
