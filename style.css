@@ -105,7 +105,10 @@
 .header .top-row .right {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+    gap: 3em;
+    padding-right: 5em;
 }
 
 .header .top-row .left img , 
@@ -136,7 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 4em;
+    gap: 1em;
     padding-left: 5em;
 
 
@@ -151,7 +154,10 @@
 .header .bottom-row .right {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+    padding-right: 5em;
+    gap: 4em;
 }
 .header .bottom-row .right button {
     width: 65px;
