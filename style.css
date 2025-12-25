@@ -186,10 +186,33 @@
     gap: 20px;
 }
 
-.main-content-left .projects div {
+.main-content-left .projects .project-container {
     border-radius: 10px;
     border-left-color: gold;
     border-left-width: 10px;
+}
+
+.project-container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+.project-container .name-description {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.project-container .project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+.project-container .project-icons img {
+    height: 32px;
+    width: 32px;
 }
 
 .main-content div {
