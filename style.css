@@ -114,7 +114,6 @@
 
 .header .top-row .left img , 
 .header .top-row .right img {
-    border: 1px solid pink;
     height: 32px;
     width: 32px;
 }
@@ -123,7 +122,6 @@
     border-radius: 15px;
 }
 .header .search-bar {
-    border: 0px solid black;
     background-color: rgb(219, 227, 231);
     border-radius: 10px;
     height: 25px;
@@ -146,7 +144,6 @@
 
 }
 .header .bottom-row .left img{
-    border: 1px solid green;
     height: 46px;
     width: 46px;
     border-radius: 25px;
