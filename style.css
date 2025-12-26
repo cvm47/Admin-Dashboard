@@ -203,11 +203,11 @@
 .project-container .project-icons {
     display: flex;
     justify-content: flex-end;
-    gap: 1em;
+    gap: 1.5em;
 }
 .project-container .project-icons img {
-    height: 32px;
-    width: 32px;
+    height: 26px;
+    width: 26px;
 }
 
 .main-content div {
