@@ -244,3 +244,9 @@
     padding-left: 2em;
     gap: 1em;
 }
+
+.trending div img {
+    height: 42px;
+    width: 42px;
+    border-radius: 32px;
+}
